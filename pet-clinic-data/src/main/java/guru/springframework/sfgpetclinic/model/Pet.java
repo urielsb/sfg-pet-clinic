@@ -5,9 +5,13 @@ import java.time.LocalDate;
 /**
  * Created by jt on 7/13/18.
  */
-public class Pet {
+public class Pet extends BaseEntity {
 
-    private PetType petType;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 9052231982640691480L;
+	private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
 
